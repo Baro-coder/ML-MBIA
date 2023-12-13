@@ -64,3 +64,8 @@ A class label and set of bounding box coordinates were given for each cell. For 
 ## **Problem Statement**
 
 Given the image data which contains cells of 6 different classes of which 2 classes are of uninfected cells and 4 classes of infected cells. We have to build a model which can localize each object cells in an image with bounding box and detect the class of cells with high confidence score and with high mean average precision.
+
+![dataset-sample-desc-image](./assets/readme-dataset-sample-desc-image.png)
+
+> ***Expected output**:
+> (Red - `Uninfected`, Green - `Infected`, Blue - `Difficult`)*
