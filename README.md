@@ -12,6 +12,8 @@ Machine learning - object detection and classification project
 
 ### 2. [Dataset](#dataset)
 
+### 3. [Problem Statement](#problem-statement)
+
 ---
 
 ## **Context**
@@ -56,3 +58,9 @@ The data consists of **two classes of uninfected cells** (*RBCs and leukocytes*)
 Annotators were permitted to mark some cells as difficult if not clearly in one of the cell classes. The data had a heavy imbalance towards uninfected RBCs versus uninfected leukocytes and infected cells, making up over 95% of all cells.
 
 A class label and set of bounding box coordinates were given for each cell. For all data sets, infected cells were given a class label by Stefanie Lopes, malaria researcher at the Dr. Heitor Vieira Dourado Tropical Medicine Foundation hospital, indicating stage of development or marked as difficult.
+
+---
+
+## **Problem Statement**
+
+Given the image data which contains cells of 6 different classes of which 2 classes are of uninfected cells and 4 classes of infected cells. We have to build a model which can localize each object cells in an image with bounding box and detect the class of cells with high confidence score and with high mean average precision.
